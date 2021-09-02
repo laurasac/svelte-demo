@@ -18,7 +18,7 @@ export  function post({ body }: ServerRequest): EndpointOutput {
                     "Content-type": "application/json"
                 },
                 body: {
-                    location: "http://localhost:3000/posts"
+                    location: "/posts"
                 }
             }
         }
